@@ -109,6 +109,11 @@ h2{font-size:clamp(2rem,4vw,3.1rem);line-height:1.05;letter-spacing:-.04em;margi
 .cert{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:1.2rem;min-height:150px;display:flex;flex-direction:column;justify-content:space-between}
 .cert small{font:600 .75rem IBM Plex Mono,monospace;color:var(--brand)}
 .cert strong{display:block;font-size:1rem;line-height:1.35;margin-top:.7rem}
+.cert-link{display:inline-flex;align-items:center;gap:.4rem;width:max-content;margin-top:1rem;padding:.48rem .72rem;border:1px solid var(--line);border-radius:10px;text-decoration:none;font-size:.82rem;font-weight:700;color:var(--brand);background:var(--bg);transition:transform .18s ease,border-color .18s ease,background .18s ease}
+.cert-link:hover{transform:translateY(-1px);border-color:var(--brand);background:var(--surface)}
+.credential-links{margin-top:1rem;display:flex;gap:.7rem;flex-wrap:wrap}
+.credential-links a{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem .8rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-size:.84rem;font-weight:700;background:var(--surface);color:var(--ink)}
+.credential-links a:hover{border-color:var(--brand);color:var(--brand)}
 
 .contact-card{background:linear-gradient(135deg,var(--ink),color-mix(in srgb,var(--ink) 82%,var(--brand)));color:var(--bg);border-radius:26px;padding:2rem;display:grid;grid-template-columns:1fr 1fr;gap:2rem;box-shadow:var(--shadow)}
 .contact-card h2{color:var(--bg);margin:0}
@@ -204,7 +209,7 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.88rem}
         <div class="job-side"><span class="period">Jul 2026 – Present</span><h3>IT Administration, Working Student</h3><p>ESCRIBA AG · Berlin</p></div>
         <div class="job-main"><ul>
           <li>Analyse and resolve IT faults in 1st- and 2nd-level support.</li><li>Process and document tickets for hardware, software, users and access.</li><li>Help administer Microsoft 365 users, groups and licences.</li><li>Work in a hybrid environment with Active Directory and cloud connectivity.</li><li>Troubleshoot Windows and macOS hardware and software.</li><li>Provision, set up and decommission laptops, mobile devices and accessories.</li><li>Support workplace relocations and onboarding/offboarding.</li><li>Clarify user needs, document solutions and suggest improvements.</li>
-        </ul><div class="note"></div></div>
+        </ul></div>
       </article>
       <article class="job">
         <div class="job-side"><span class="period">Apr 2015 – Jun 2023</span><h3>IT Support Engineer</h3><p>Link3 Technologies Ltd. · Dhaka, Bangladesh</p></div>
@@ -242,10 +247,14 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.88rem}
   <div class="container">
     <div class="section-head"><div><span class="kicker">Certifications</span><h2>Professional learning</h2></div><p>Networking, cloud and device management certifications listed in the current portfolio.</p></div>
     <div class="cert-grid">
-      <article class="cert"><small>CCNA</small><strong>Cisco Certified Network Associate</strong></article>
-      <article class="cert"><small>GOOGLE</small><strong>Google IT Support Professional Certificate</strong></article>
+      <article class="cert"><small>CCNA</small><strong>Cisco Certified Network Associate</strong><a class="cert-link" href="https://drive.google.com/file/d/0BycW-0cONOBKbVRaYkoxd3dQbE0/view?usp=sharing&amp;resourcekey=0-DpejRx7DUcYhzsi0QJ4sAw" target="_blank" rel="noopener noreferrer" aria-label="Open Cisco CCNA credential">View credential ↗</a></article>
+      <article class="cert"><small>GOOGLE</small><strong>Google IT Support Professional Certificate</strong><a class="cert-link" href="https://www.coursera.org/account/accomplishments/specialization/AHDK5BPFZOPB" target="_blank" rel="noopener noreferrer" aria-label="Open Coursera credential">View credential ↗</a></article>
       <article class="cert"><small>MICROSOFT</small><strong>Microsoft Azure Fundamentals</strong></article>
       <article class="cert"><small>MICROSOFT</small><strong>Microsoft Intune MDM/MAM</strong></article>
+    </div>
+    <div class="credential-links" aria-label="Additional certification verification links">
+      <a href="https://www.linkedin.com/in/mannawahid/overlay/Certifications/2050791044/treasury/?profileId=ACoAAA9CwfUBBn3L2Roso10I4fm2t3MkkBtcpi4" target="_blank" rel="noopener noreferrer">LinkedIn credential ↗</a>
+      <a href="https://www.linkedin.com/learning/certificates/dc11ca24818cca3a621175f18af13af2a8e83ac7e4175d0349b4c190a08b0831?u=68873474" target="_blank" rel="noopener noreferrer">LinkedIn Learning certificate ↗</a>
     </div>
   </div>
 </section>
